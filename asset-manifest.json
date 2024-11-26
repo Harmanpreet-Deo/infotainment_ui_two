@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/infotainment_ui_two/static/css/main.c5b5914f.css",
+    "main.js": "/infotainment_ui_two/static/js/main.a8b24c6e.js",
+    "static/js/453.a759edab.chunk.js": "/infotainment_ui_two/static/js/453.a759edab.chunk.js",
+    "static/media/car.png": "/infotainment_ui_two/static/media/car.eba8a0603551cb1ffa60.png",
+    "static/media/album.png": "/infotainment_ui_two/static/media/album.de5faebde67f484b1247.png",
+    "index.html": "/infotainment_ui_two/index.html",
+    "main.c5b5914f.css.map": "/infotainment_ui_two/static/css/main.c5b5914f.css.map",
+    "main.a8b24c6e.js.map": "/infotainment_ui_two/static/js/main.a8b24c6e.js.map",
+    "453.a759edab.chunk.js.map": "/infotainment_ui_two/static/js/453.a759edab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b5914f.css",
+    "static/js/main.a8b24c6e.js"
+  ]
+}
