@@ -1,0 +1,215 @@
+/* Call Status Bar */
+.phone-call-status-bar {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 50px;
+    transform: translateX(40%);
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+    border-radius: 10px;
+  }
+  
+  .phone-call-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phone-call-info .phone-caller-name {
+    font-weight: bold;
+  }
+  
+  .phone-call-info .phone-call-status {
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  .phone-call-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .phone-call-timer {
+    font-size: 1rem;
+  }
+  
+  .phone-control-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .phone-control-icon.active {
+    color: lightblue;
+  }
+  
+  /* Phone Menu */
+  .phone-menu-container {
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    width: 250px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .phone-menu-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .phone-menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .phone-menu-icon.active {
+    color: lightblue;
+  }
+  
+  .phone-menu-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Dial Pad */
+  .phone-dial-pad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+  }
+  
+  .phone-number-display {
+    font-size: 1rem;
+    background: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  .phone-number-display button {
+    background: none;
+    color: red;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .phone-dial-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+  
+  .phone-dial-numbers button {
+    background: #222;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .phone-dial-call-button {
+    background: green;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    cursor: pointer;
+  }
+  
+  .phone-dial-call-button:hover {
+    background: lightgreen;
+  }
+  
+  .contacts-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contacts-section li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .call-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-btn:hover {
+    background: lightgreen;
+  }
+  .recent-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .recent-section li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  .more-options-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .feature-btn {
+    background: #222;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feature-btn:hover {
+    background: #0056b3;
+  }
+    

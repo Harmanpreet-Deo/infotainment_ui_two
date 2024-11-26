@@ -1,0 +1,177 @@
+/* Music Section Container */
+.music-container {
+    width: 70%;
+    height: 100%;
+    background: #003366;
+    color: white;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Corner Elements */
+  .corner {
+    position: absolute;
+  }
+  
+  .corner.top-left {
+    top: 0px;
+    left: 20px;
+    font-size: 1.25rem;
+  }
+  
+  .corner.top-right {
+    top: 0px;
+    right: 20px;
+    font-size: 1.25rem;
+  }
+  
+  .corner.bottom-left {
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .corner.bottom-right {
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+  }
+  
+  .battery-icon {
+    font-size: 2.5rem;
+    margin-top: 5px;
+  }
+  
+  .mic-icon {
+    font-size: 2.5rem;
+  }
+  
+  /* Saved Channels */
+  .saved-channels {
+    flex: 1;
+    max-width: 60%;
+    height: 290px;
+    background: #002244;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .saved-channels h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .saved-channels ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .saved-channels li {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #003366;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .saved-channels li.active {
+    background: #0056b3;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .saved-channels li:hover {
+    background: #004080;
+  }
+  
+  .delete-btn {
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  
+  /* Music Player */
+  .music-player {
+    flex: 1;
+    max-width: 55%;
+    background: #002244;
+    border-radius: 10px;
+    max-height: 320px;
+    padding: 20px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .music-player h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .radio-info {
+    margin-bottom: 20px;
+  }
+  
+  
+  .radio-info .frequency {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .radio-info .song-info {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .player-controls {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .control-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .control-icon:hover {
+    color: #00ff00;
+  }
+  
+  .progress-dots {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .progress-dots .dot {
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .progress-dots .dot.active {
+    background: white;
+  }
+  
